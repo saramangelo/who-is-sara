@@ -1,19 +1,7 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Project from './components/Project';
-import Footer from './components/Footer';
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-// In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
-function App() {
-  return (
-    <div>
-      <Header />
-      <Navbar />
-      <Project />
-      <Footer />
-    </div>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
+
