@@ -21,7 +21,7 @@ const styles = {
 function Navbar() {
   return (
     <div style={styles.card}>
-      <div style={styles.heading}>Home</div>
+      <div style={styles.heading}>THIS IS A NAVBAR</div>
     </div>
   );
 }
