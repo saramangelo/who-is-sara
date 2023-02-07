@@ -1,7 +1,6 @@
 import React from 'react';
 
-// We declare an object called styles that will contain a few objects for card and heading styles
-// Notice that each key lists CSS styles in camel case
+
 const styles = {
   card: {
     margin: 20,
@@ -17,7 +16,7 @@ const styles = {
   },
 };
 
-// In Navbar, we can assign a style from an object by using curly braces
+
 function Navbar() {
   return (
     <div style={styles.card}>
