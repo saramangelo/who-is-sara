@@ -34,6 +34,7 @@ Professional portfolio detailing my accomplishments as a developer, highlighting
     - [Advanced Configuration](#advanced-configuration)
     - [Deployment](#deployment)
     - [`npm run build` fails to minify](#npm-run-build-fails-to-minify)
+
   
 ## Installation
 Enter URL in browser.
