@@ -1,6 +1,4 @@
-import React from 'react';
-
-// TODO: Add a comment explaining how we are able to extract the key value pairs from props
+import React from "react";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -8,10 +6,8 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#home"
-          onClick={() => handlePageChange('Home')}
-          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
-        // ternary operator, checking prop - if current page = Home, set nav link to active, else set it to nav link
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+          onClick={() => handlePageChange("Home")}
+          className={currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
           Home
         </a>
@@ -19,10 +15,8 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#about"
-          onClick={() => handlePageChange('About')}
-          //  TODO: Add a comment explaining what this logic is doing
-          // checking prop - if current page = About, set nav link to active, else set it to nav link
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          onClick={() => handlePageChange("About")}
+          className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
           About
         </a>
@@ -30,10 +24,8 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#blog"
-          onClick={() => handlePageChange('Blog')}
-          //  TODO: Add a comment explaining what this logic is doing
-          // checking prop - if current page = Blog, set nav link to active, else set it to nav link
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+          onClick={() => handlePageChange("Blog")}
+          className={currentPage === "Blog" ? "nav-link active" : "nav-link"}
         >
           Blog
         </a>
@@ -41,10 +33,8 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#contact"
-          //  TODO: Add a comment explaining what this logic is doing
-          // checking prop - if current page = Contact, set nav link to active, else set it to nav link
-          onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          onClick={() => handlePageChange("Contact")}
+          className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
           Contact
         </a>
@@ -55,7 +45,11 @@ function NavTabs({ currentPage, handlePageChange }) {
 
 export default NavTabs;
 
-
+// GIVEN a single-page application portfolio for a web developer
+// WHEN I load the portfolio
+// THEN I am presented with a page containing a header, a section for content, and a footer
+// WHEN I view the header
+// THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
 // WHEN I view the navigation titles
 // THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
 // WHEN I click on a navigation title
@@ -74,3 +68,5 @@ export default NavTabs;
 // THEN I receive a notification if I have entered an invalid email address
 // WHEN I am presented with the Resume section
 // THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+// WHEN I view the footer
+// THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
