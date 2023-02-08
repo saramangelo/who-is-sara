@@ -4,4 +4,16 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'semantic-ui-css/semantic.min.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const styles = {
+    image: {
+    backgroundImage: "url('./images/wisbg.jpeg')",
+    height:'100vh',
+    marginTop:'-70px',
+    fontSize:'50px',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+}
+}
+
+
+ReactDOM.render(<App style={styles.image} className="AppComponent" />, document.getElementById('root'));
