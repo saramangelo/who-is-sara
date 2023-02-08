@@ -1,9 +1,11 @@
 import React from 'react';
+import Avatar from '../Avatar'
 
 export default function Home() {
   return (
     <div>
       <h1>Home Page</h1>
+      <Avatar />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
