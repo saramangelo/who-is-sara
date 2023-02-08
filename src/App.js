@@ -1,10 +1,10 @@
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
-import background from "../src/images/wisbg.jpeg"
+import background from "./images/wisbg.jpeg"
 
 const styles = {
     image: {
-    backgroundImage: "url("+{background}+")",
+    backgroundImage: `url(${background})`,
     height:'100vh',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
