@@ -1,7 +1,7 @@
 import React from 'react';
 
 // TODO: CREATE PROJECT COMPONENT WHERE I PASS PROPS, MAP THROUGH TO 6 PRINT PROJECT TILES HERE
-// can use npm uuid or give id?
+// can use npm uuid or use the index
 // inside array:
 // 6 projects:
 // image of deployed app (gif or screenshot)
@@ -9,6 +9,7 @@ import React from 'react';
 // link to deployed app (dlink)
 // link to corresponding github repo (rlink)
 
+// for image, need to require() right in code
 
 
 const Portfolio = ({ projects }) => {
