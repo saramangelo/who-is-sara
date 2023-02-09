@@ -9,4 +9,4 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 
 
-ReactDOM.render(<App className="AppComponent" />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
