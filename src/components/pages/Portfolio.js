@@ -1,27 +1,36 @@
 import React from 'react';
 
-// TODO: CREATE PROJECT COMPONENT WHERE I PASS PROPS, MAP THROUGH TO PRINT PROJECT TILES HERE
+// TODO: CREATE PROJECT COMPONENT WHERE I PASS PROPS, MAP THROUGH TO 6 PRINT PROJECT TILES HERE
+// can use npm uuid or give id?
+// inside array:
+// 6 projects:
+// image of deployed app (gif or screenshot)
+// title of project
+// link to deployed app (dlink)
+// link to corresponding github repo (rlink)
 
-const Portfolio = ({ profiles, title }) => {
-  if (!profiles.length) {
-    return <h3>No Profiles Yet</h3>;
-  }
 
+
+const Portfolio = ({ projects }) => {
   return (
     <div>
-      <h3 className="text-primary">{title}</h3>
+      <h3 className="text-primary">Projects</h3>
       <div className="flex-row justify-space-between my-4">
-        {profiles &&
-          profiles.map((profile) => (
-            <div key={profile._id} className="col-12 col-xl-6">
+        {projects &&
+          projects.map((projects) => (
+            <div key={projects._id} className="col-12 col-xl-6">
               <div className="card mb-3">
                 <h4 className="card-header bg-dark text-light p-2 m-0">
-                  {profile.name} <br />
-                  <span className="text-white" style={{ fontSize: '1rem' }}>
-                    currently has {profile.skills ? profile.skills.length : 0}{' '}
-                    endorsed skill
-                    {profile.skills && profile.skills.length === 1 ? '' : 's'}
-                  </span>
+                  {projects.name} <br />
+                </h4>
+                <h4 className="card-header bg-dark text-light p-2 m-0">
+                  {projects.image} <br />
+                </h4>
+                <h4 className="card-header bg-dark text-light p-2 m-0">
+                  {projects.dlink} <br />
+                </h4>
+                <h4 className="card-header bg-dark text-light p-2 m-0">
+                  {projects.rlink} <br />
                 </h4>
               </div>
             </div>
