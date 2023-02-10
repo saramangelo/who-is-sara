@@ -5,8 +5,10 @@ const Project = (props) => {
 
   return (
     <>
+
+   <div className="container-fluid row justify-content-center mt-5">
       {projects.map((project, index) => (
-        <div className="project-card" key={generateKey(project.name)}>
+        <div className="project-card col-sm-6" key={generateKey(project.name)}>
           <img
             className="img-fluid shadow-2-strong rounded-4"
             src={require(`../assets/images/${project.image}`)}
@@ -20,6 +22,7 @@ const Project = (props) => {
           </div>
         </div>
       ))}
+    </div>
     </>
   );
 };
