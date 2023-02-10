@@ -1,33 +1,67 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import { MDBInput, MDBTextArea, MDBCheckbox, MDBBtn } from 'mdb-react-ui-kit';
 
-export default function Contact() {
+const styles = {
+  error: {
+    color: 'red',
+    fontSize: '1.2rem',
+  },
+}
+
+function Contact() {
+const [errorMessage, setErrorMessage] = useState("");
+const [formState, setFormState] = useState({
+  name: "",
+  email: "",
+  message: "",
+});
+
+// const { name, email, message } = formState;
+
+function handleChange(e) {
+  if (!e.target.value.length) {
+    setErrorMessage(`${e.target.name} is required!`)
+  } else {
+    setErrorMessage("");
+  }
+  
+  if (!errorMessage) {
+    setFormState({ ...formState, [e.target.value]: e.target.value });
+  }
+}
+
+
+function handleSubmit(e) {
+  e.preventDefault();
+}
+
+
+// export default function Contact() {
   return (
-    <form id='form' className='text-center' style={{ width: '100%', maxWidth: '300px' }}>
-      <h2>Contact Me!</h2>
+    <form onSubmit={handleSubmit} id='form' className='text-center' style={{ width: '50%' }}>
+      <h2 className='heading'>Let's connect!</h2>
 
-      <MDBInput label='Name' v-model='name' wrapperClass='mb-4' />
+      <MDBInput onBlur={handleChange} name='Name' label='Name' v-model='name' wrapperClass='mb-4' />
 
-      <MDBInput type='email' label='Email address' v-model='email' wrapperClass='mb-4' />
+      <MDBInput onBlur={handleChange} name='Email' type='email' label='Email address' v-model='email' wrapperClass='mb-4' />
 
-      <MDBInput label='Subject' v-model='subject' wrapperClass='mb-4' />
+      <MDBInput onBlur={handleChange} name='Subject' label='Subject' v-model='subject' wrapperClass='mb-4' />
 
-      <MDBTextArea wrapperClass='mb-4' label='Message' />
+      <MDBTextArea onBlur={handleChange} name='Message' wrapperClass='mb-4' label='Message' />
 
-      <MDBCheckbox wrapperClass='d-flex justify-content-center' label='Send me copy' />
-
-      <MDBBtn color='primary' block className='my-4'>
+        <MDBCheckbox wrapperClass='d-flex justify-content-center' label='Send me copy' />
+      <MDBBtn color='dark' block className='my-4'>
         Send
       </MDBBtn>
+      <div style={styles.error}>
+        {errorMessage && (
+          <div>
+            <p className='error-text'>{errorMessage}</p>
+          </div>
+        )}
+      </div>
     </form>
   );
 }
 
-
-// this needs to be a contact form. 
-// WHEN I am presented with the Contact section
-// THEN I see a contact form with fields for a name, an email address, and a message
-// WHEN I move my cursor out of one of the form fields without entering text
-// THEN I receive a notification that this field is required
-// WHEN I enter text into the email address field
-// THEN I receive a notification if I have entered an invalid email address
+export default Contact;
