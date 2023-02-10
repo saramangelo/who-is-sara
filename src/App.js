@@ -1,6 +1,6 @@
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
-// import background from "./images/wisbg.jpeg"
+// import background from "./images/casey-horner-RmoWqDCqN2E-unsplash.jpg"
 
 // const styles = {
 //     image: {
@@ -11,9 +11,10 @@ import PortfolioContainer from "./components/PortfolioContainer";
 // }
 // }
 
-// {/* <div style={styles.image}> */}
+// <div style={styles.image}></div>
 
-const App = () =>  <PortfolioContainer />;
+const App = () =>   <PortfolioContainer />
+
 
 export default App;
 
