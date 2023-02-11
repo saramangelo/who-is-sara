@@ -14,7 +14,7 @@ export default function App() {
         className="text-center"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
-        <section className="">
+        <section className="icons">
           <MDBContainer className="text-center text-md-start mt-5">
             <MDBRow className="mt-3">
               <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
@@ -25,30 +25,35 @@ export default function App() {
                   <div>
                     <a
                       href="https://www.facebook.com/sara.no.h.angelo/"
+                      target="_blank" rel="noreferrer"
                       className="me-4 text-reset"
                     >
                       <MDBIcon fab icon="facebook-f" />
                     </a>
                     <a
                       href="https://twitter.com/thats_no_h"
+                      target="_blank" rel="noreferrer"
                       className="me-4 text-reset"
                     >
                       <MDBIcon fab icon="twitter" />
                     </a>
                     <a
                       href="https://www.instagram.com/noooo_h/"
+                      target="_blank" rel="noreferrer"
                       className="me-4 text-reset"
                     >
                       <MDBIcon fab icon="instagram" />
                     </a>
                     <a
                       href="https://www.linkedin.com/in/sara-angelo/"
+                      target="_blank" rel="noreferrer"
                       className="me-4 text-reset"
                     >
                       <MDBIcon fab icon="linkedin" />
                     </a>
                     <a
                       href="https://github.com/saramangelo"
+                      target="_blank" rel="noreferrer"
                       className="me-4 text-reset"
                     >
                       <MDBIcon fab icon="github" />

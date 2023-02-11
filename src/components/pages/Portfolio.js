@@ -20,7 +20,7 @@ const Portfolio = () => {
       image: "3Rex.jpg",
     },
     {
-      name: "rain-check",
+      name: "Rain Check",
       description:
         "This weather application, named rain-check, features dynamically updated HyperText Markup Language (HTML) and Cascading Style Sheet (CSS) powered by JavaScript and the third party Application Programming Interfaces (API), jQuery and Server-Side APIs Materialize, Google Fonts and Open Weathermap. In this application, the user is presented with current and future conditions for a specific city they search, and that city is added to the search history. Users can view current weather or a 5-day forecast for their searched city.",
       link: "https://saramangelo.github.io/rain-check/",
@@ -28,7 +28,7 @@ const Portfolio = () => {
       image: "raincheck.jpg",
     },
     {
-      name: "web-api-catechize",
+      name: "Web API Catechize",
       description:
         "This Web API timed, multiple-choice quiz runs in the browser, featuring dynamically updated HTML and CSS, Third-Party Application Programming Interface, Bootstrap, powered by JavaScript.",
       link: "https://saramangelo.github.io/web-api-catechize/",
@@ -36,7 +36,7 @@ const Portfolio = () => {
       image: "catechize.jpg",
     },
     {
-      name: "password-generator",
+      name: "Password Generator",
       description:
         "This password generator was originally derived from starter code with provided JavaScript (JS), HyperText Markup Language (HTML) and Cascading Style Sheets (CSS) files. The rendering was done solely within the JS file. In the webpage, when the user clicks the button, 'Generate Password,' the user is presented with a series of prompts, asking them to enter the number of characters they would like their password to be (between 8-128), and if they would like to include uppercase, lowercase, numbers and/or special characters. When the user answers each prompt, the information is saved, validated, then rendered on the screen, displaying a generated password that matches the user's selected criteria.",
       link: "https://saramangelo.github.io/password-generator/",
@@ -44,7 +44,7 @@ const Portfolio = () => {
       image: "passwordgenerator.jpeg",
     },
     {
-      name: "read-my-readme",
+      name: "Read My README",
       description:
         "This README generator is a command-line app application that accepts user input. While utilizing node, users are prompted for information about their application repository, which is then rendered in the form of a professional README.md with the title of their project and sections entitled Description, Table of Contents, Installation, Usage, License (including badge), Contributing, Tests, and Questions. When the user answers each prompt, the input is generated onto the README.md file in its respective location on the file.",
       link: "https://github.com/saramangelo/read-my-readme",
