@@ -84,6 +84,7 @@ function Contact() {
       <MDBInput
         onChange={handleChange}
         onBlur={handleBlur}
+        value={name}
         name="name"
         label="Name"
         v-model="name"
@@ -93,6 +94,7 @@ function Contact() {
       <MDBInput
         onChange={handleChange}
         onBlur={handleBlur}
+        value={email}
         name="email"
         type="email"
         label="Email address"
@@ -103,6 +105,7 @@ function Contact() {
       <MDBInput
         onChange={handleChange}
         onBlur={handleBlur}
+        value={subject}
         name="subject"
         label="Subject"
         v-model="subject"
@@ -112,6 +115,7 @@ function Contact() {
       <MDBTextArea
         onChange={handleChange}
         onBlur={handleBlur}
+        value={message}
         name="message"
         wrapperClass="mb-4"
         label="Message"
