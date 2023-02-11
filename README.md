@@ -5,7 +5,7 @@
 Professional portfolio detailing my accomplishments as a developer, highlighting my strongest work as well as the thought processes behind them.
 
 ## Screenshot
-![]()
+![wis-ss.png](./src/images/wis-ss.png)
   
 ## Table of Contents
     
@@ -32,7 +32,7 @@ N/A
    
   
 ## Credits
-React.js, Bootstrap, Google Fonts, NPM
+React.js, Bootstrap, Semantic UI, Google Fonts, NPM
   
   
 ## License
