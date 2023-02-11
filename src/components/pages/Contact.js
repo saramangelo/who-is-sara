@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
-import { MDBInput, MDBTextArea, MDBCheckbox, MDBBtn } from "mdb-react-ui-kit";
+import { MDBInput, MDBTextArea, MDBCheckbox, MDBBtn, MDBIcon } from "mdb-react-ui-kit";
 
 const styles = {
   error: {
     color: "red",
     fontSize: "1.2rem",
   },
+  submit: {
+    color: "blue",
+    fontSize: "1.2rem",
+  }
 };
 
 function Contact() {
@@ -24,6 +28,9 @@ function Contact() {
   
   // state variables for error handling
   const [errorMessage, setErrorMessage] = useState("");
+
+  // state variable for submit message
+  const [submitMessage, setSubmitMessage] = useState("");
 
   // obtain name and value of input
   const handleChange = (e) => {
@@ -70,11 +77,13 @@ function Contact() {
     setEmail("");
     setSubject("");
     setMessage("");
+    setSubmitMessage("Message sent, thank you!");
   }
 
   return (
     <form
-      onSubmit={handleSubmit}
+    action="mailto:saramangelo@gmail.com." method="get"  
+    onSubmit={handleSubmit}
       id="form"
       className="text-center"
       style={{ width: "50%" }}
@@ -125,7 +134,7 @@ function Contact() {
         wrapperClass="d-flex justify-content-center"
         label="Send me copy"
       />
-      <MDBBtn onClick={handleSubmit} color="dark" block className="my-4">
+      <MDBBtn color="dark" block className="my-4">
         Send
       </MDBBtn>
       <div style={styles.error}>
@@ -134,6 +143,15 @@ function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
+      </div>
+      <div style={styles.submit}>
+        {submitMessage && (
+          <div> 
+            <p className="submit-text">{submitMessage}</p>
+            <MDBIcon far icon="paper-plane" />
+          </div>
+        )}
+     
       </div>
     </form>
   );

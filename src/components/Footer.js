@@ -1,4 +1,3 @@
-import React from "react";
 import {
   MDBFooter,
   MDBContainer,
@@ -28,41 +27,41 @@ export default function App() {
                       target="_blank" rel="noreferrer"
                       className="me-4 text-reset"
                     >
-                      <MDBIcon fab icon="facebook-f" />
+                      <MDBIcon fab icon="facebook-f" size='lg' />
                     </a>
                     <a
                       href="https://twitter.com/thats_no_h"
                       target="_blank" rel="noreferrer"
                       className="me-4 text-reset"
                     >
-                      <MDBIcon fab icon="twitter" />
+                      <MDBIcon fab icon="twitter" size='lg' />
                     </a>
                     <a
                       href="https://www.instagram.com/noooo_h/"
                       target="_blank" rel="noreferrer"
                       className="me-4 text-reset"
                     >
-                      <MDBIcon fab icon="instagram" />
+                      <MDBIcon fab icon="instagram" size='lg'/>
                     </a>
                     <a
                       href="https://www.linkedin.com/in/sara-angelo/"
                       target="_blank" rel="noreferrer"
                       className="me-4 text-reset"
                     >
-                      <MDBIcon fab icon="linkedin" />
+                      <MDBIcon fab icon="linkedin" size='lg'/>
                     </a>
                     <a
                       href="https://github.com/saramangelo"
                       target="_blank" rel="noreferrer"
                       className="me-4 text-reset"
                     >
-                      <MDBIcon fab icon="github" />
+                      <MDBIcon fab icon="github" size='lg'/>
                     </a>
                     <a
                       href="mailto:saramangelo@gmail.com"
                       className="me-4 text-reset"
                     >
-                      <MDBIcon icon="envelope" />
+                      <MDBIcon icon="envelope" size='lg'/>
                     </a>
                   </div>
                 </section>
@@ -70,6 +69,12 @@ export default function App() {
             </MDBRow>
           </MDBContainer>
         </section>
+        <div class="footer-copyright text-center p-3 grey lighten-1 text-black-50">
+  © 2023 Copyright:
+  <a id="footer-link-react-copyright" class="black-text" href="https://github.com/saramangelo">
+      Sara Angelo
+  </a>
+</div>
       </div>
     </MDBFooter>
   );

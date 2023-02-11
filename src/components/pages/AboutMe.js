@@ -1,10 +1,9 @@
-import React from "react";
 import Avatar from "../Avatar";
 import '../../components/styles/AboutMe.css'
 
 export default function AboutMe() {
   return (
-    <div className="aboutme-card">
+    <div className="aboutme-card ">
       <h1 className="header">Sara Angelo</h1>
       <div className="avatar"><Avatar /></div>
       

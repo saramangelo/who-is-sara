@@ -1,4 +1,3 @@
-import React from "react";
 import Project from "../../components/Project";
 
 const Portfolio = () => {
@@ -53,7 +52,7 @@ const Portfolio = () => {
     },
   ];
   return (
-    <div className="flex-around">
+    <div>
       <Project projects={projects}></Project>
     </div>
   );
