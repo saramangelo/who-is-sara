@@ -53,9 +53,9 @@ const Portfolio = () => {
     },
   ];
   return (
-    <container className="flex-around">
+    <div className="flex-around">
       <Project projects={projects}></Project>
-    </container>
+    </div>
   );
 };
 
