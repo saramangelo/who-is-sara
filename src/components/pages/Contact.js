@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 import { MDBInput, MDBTextArea, MDBCheckbox, MDBBtn, MDBIcon } from "mdb-react-ui-kit";
+import '../../index.css'
 
 const styles = {
   error: {
@@ -81,8 +82,8 @@ function Contact() {
   }
 
   return (
+   <div className="form-container">
     <form
-    action="mailto:saramangelo@gmail.com." method="get"  
     onSubmit={handleSubmit}
       id="form"
       className="text-center"
@@ -154,6 +155,7 @@ function Contact() {
      
       </div>
     </form>
+    </div>
   );
 }
 

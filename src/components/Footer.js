@@ -11,7 +11,7 @@ export default function App() {
     <MDBFooter bgColor="light" className="text-center text-lg-start text-muted">
       <div
         className="text-center"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.05)"}}
       >
         <section className="icons">
           <MDBContainer className="text-center text-md-start mt-5">

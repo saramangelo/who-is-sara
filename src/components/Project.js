@@ -1,13 +1,14 @@
 import { generateKey } from "../../src/utils/helpers";
 
+
 const Project = (props) => {
   const { projects = [] } = props;
 
   return (
-    <div className="container-fluid row justify-content-center mt-5">
+    <div className="container-fluid row justify-content-center mt-5 ">
       {projects.map((project, index) => (
         <div
-          className="project-card col-sm-6 mb-3"
+          className="project-card col-sm-6 mb-3 project-tile"
           key={generateKey(project.name)}
         >
           <div>
