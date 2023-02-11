@@ -14,7 +14,7 @@ const Project = (props) => {
 
           <a href={project.link} target="_blank" rel="noreferrer">
             <img
-              className="img-fluid align-items-center shadow-2-strong rounded-4"
+              className="img-fluid align-items-center shadow-4-strong rounded-4"
               src={require(`../assets/images/${project.image}`)}
               alt={project.description}
             ></img>

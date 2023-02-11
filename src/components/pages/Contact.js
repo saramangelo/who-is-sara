@@ -61,10 +61,10 @@ function Contact() {
     e.preventDefault();
 
     // Validate email using helper and name
-    // if (!validateEmail(email) || !name) {
-    //   setErrorMessage("Please enter a name and valid email.");
-    //   return;
-    // }
+    if (!validateEmail(email)) {
+      setErrorMessage("Please enter a valid email.");
+      return;
+    }
 
     setName("");
     setEmail("");
