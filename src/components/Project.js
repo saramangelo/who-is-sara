@@ -12,7 +12,7 @@ const Project = (props) => {
           key={generateKey(project.name)}
         >
           <div>
-            <h2 className="card-title text-center mt-2">
+            <h2 className="p-card card-title text-center mt-2">
               {project.name}
               <div>
                 <a href={project.githubLink} target="_blank" rel="noreferrer">
