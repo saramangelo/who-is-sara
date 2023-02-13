@@ -1,5 +1,4 @@
 import Avatar from "../Avatar";
-import '../../components/styles/AboutMe.css'
 
 export default function AboutMe() {
   return (
@@ -7,7 +6,8 @@ export default function AboutMe() {
       <h1 className="header">Sara Angelo</h1>
       <div className="avatar"><Avatar /></div>
       
-      <section className=" card-body img-fluid align-items-center shadow-5-strong rounded-4"style={{ width: 500 }}>
+      <section className="blurb card-body img-fluid align-items-center shadow-5-strong rounded-4"style={{ width: 500 }}>
+        <div>
         <strong>Highly motivated</strong>, performance driven Full Stack Developer with an
         accomplished, diverse background in web development, healthcare,
         management, and financial securities. <strong>Enthusiastic</strong> to work with new
@@ -20,6 +20,7 @@ export default function AboutMe() {
         progressive web apps, agile development methodologies, computer science,
         database theory, MongoDB, MySQL, NoSQL, GraphQL, Git, version control
         systems</strong>, and their respective best practices.
+      </div>
       </section>
     </div>
   );

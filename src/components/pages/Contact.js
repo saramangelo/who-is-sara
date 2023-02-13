@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 import { MDBInput, MDBTextArea, MDBCheckbox, MDBBtn, MDBIcon } from "mdb-react-ui-kit";
-import '../../index.css'
+
 
 const styles = {
   error: {

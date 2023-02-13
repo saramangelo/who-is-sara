@@ -2,7 +2,7 @@ import { MDBIcon } from "mdb-react-ui-kit";
 
 export default function Resume() {
   return (
-    <div>
+    <div className="resume-container">
       <h1>Download my resume</h1>
       <p>
         <a
