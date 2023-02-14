@@ -5,7 +5,7 @@
 Professional portfolio application built with React.js, Express.js, Node.js, and Bootstrap React UI, detailing my accomplishments as a developer, highlighting my strongest work as well as the thought processes behind them.
 
 ## Screenshot
-[screenshot.png](./src/images/screenshot.png)
+![screenshot.png](./src/images/screenshot.png)
   
 ## Table of Contents
     
