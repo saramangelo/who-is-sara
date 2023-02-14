@@ -2,10 +2,10 @@
 ![Github license](https://img.shields.io/static/v1?label=License&message=MIT&color=brightgreen)
 
 ## Description 
-Professional portfolio detailing my accomplishments as a developer, highlighting my strongest work as well as the thought processes behind them.
+Professional portfolio application built with React.js, Express.js, Node.js, and Bootstrap React UI, detailing my accomplishments as a developer, highlighting my strongest work as well as the thought processes behind them.
 
 ## Screenshot
-![wis-ss.png](./src/images/wis-ss.png)
+![wis-ss.png](./src/images/screenshot.png)
   
 ## Table of Contents
     
@@ -24,7 +24,7 @@ Professional portfolio detailing my accomplishments as a developer, highlighting
 
   
 ## Installation
-Enter URL in browser.
+Enter [this link](https://saramangelo.github.io/who-is-sara/) in the browser.
   
   
 ## Usage
