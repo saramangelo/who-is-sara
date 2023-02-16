@@ -2,7 +2,7 @@
 ![Github license](https://img.shields.io/static/v1?label=License&message=MIT&color=brightgreen)
 
 ## Description 
-Professional portfolio application built with React.js, Express.js, Node.js, and Bootstrap React UI, detailing my accomplishments as a developer, highlighting my strongest work as well as the thought processes behind them.
+Front End professional portfolio application built with React.js, Express.js, Node.js, and Bootstrap React UI, detailing my accomplishments as a developer, highlighting my strongest work as well as the thought processes behind them.
 
 ## Screenshot
 ![sara.png](./src/images/sara.png)
