@@ -6,7 +6,7 @@ export default function Resume() {
       <h1 className="download">Download my resume</h1>
       <p>
         <a
-          href="https://docs.google.com/document/d/1XK_DyLkEUdEn_hMdLL1NRjbPSyInn-o4QIUld_JdYTc/edit?usp=sharing"
+          href="https://docs.google.com/document/d/1gNOXZFdXiSzXLeWHnBtuKGtfCXG9PkdEUpLe7lZORMQ/edit?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
