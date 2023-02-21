@@ -8,7 +8,7 @@ const Portfolio = () => {
         "DBUG is a content management system designed to help users keep track of their projects, and the bugs that they are running into when working on said projects. The application is designed to provide status, priority level and in depth descriptions about the bugs so that users may receive assistance on bugs from other users. Users have the ability to create, edit and delete tickets to receive support from the rest of their team, with full interactivity from user assigned team members as well as comment functionality to allow for transparent dialogue surrounding bugs within the user’s workflow.",
       link: "https://pacific-tundra-20033.herokuapp.com/",
       githubLink: "https://github.com/saramangelo/cswag-p3",
-      image: "dbug.png",
+      image: "dbug.jpg",
     },
     {
       name: "Kindly",
