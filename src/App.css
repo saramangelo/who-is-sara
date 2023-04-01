@@ -1,14 +1,18 @@
 #logo-canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-  }
-  
-  .app-container {
-    padding: 100px 20px 20px;
-    background: transparent;
-    z-index: 1;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.app-container {
+  padding: 100px 20px 20px;
+  background: transparent;
+  z-index: 1;
+}
+
+.devicons {
+  font-size: 30px;
+}
