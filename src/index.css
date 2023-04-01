@@ -70,7 +70,7 @@ font-family: 'Rubik Mono One', sans-serif;
 padding: 20px;
 }
 
-/* TODO: NEED TO FIX */
+/* navbar */
 .navbar {
     /* position: fixed;
     top: 0;
@@ -86,4 +86,7 @@ padding: 20px;
     justify-content: center;
 }
 
-/* TODO: NEED TO FIX FOOTER */
+/* nav links */
+.nav-item {
+  
+}
