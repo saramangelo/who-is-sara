@@ -13,33 +13,33 @@ export default function AboutMe() {
         // style={{ width: 500 }}
       >
         <div className="devicons mb-3 d-flex">
-          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i className="devicon-html5-plain-wordmark colored p-2"></i>
 
-          <i class="devicon-css3-plain-wordmark colored"></i>
+          <i className="devicon-css3-plain-wordmark colored p-2"></i>
 
-          <i class="devicon-javascript-plain colored"></i>
+          <i className="devicon-javascript-plain colored p-2"></i>
 
-          <i class="devicon-react-original colored"></i>
+          <i className="devicon-react-original colored p-2"></i>
 
-          <i class="devicon-express-original colored"></i>
+          <i className="devicon-express-original colored p-2"></i>
 
-          <i class="devicon-nodejs-plain colored"></i>
+          <i className="devicon-nodejs-plain colored p-2"></i>
 
-          <i class="devicon-python-plain colored"></i>
+          <i className="devicon-python-plain colored p-2"></i>
 
-          <i class="devicon-handlebars-plain colored"></i>
+          <i className="devicon-handlebars-plain colored p-2"></i>
 
-          <i class="devicon-swift-plain colored"></i>
+          <i className="devicon-swift-plain colored p-2"></i>
 
-          <i class="devicon-jquery-plain-wordmark colored"></i>
+          <i className="devicon-jquery-plain-wordmark colored p-2"></i>
 
-          <i class="devicon-bootstrap-plain-wordmark colored"></i>
+          <i className="devicon-bootstrap-plain-wordmark colored p-2"></i>
 
-          <i class="devicon-mysql-plain colored"></i>
+          <i className="devicon-mysql-plain colored p-2"></i>
 
-          <i class="devicon-mongodb-plain-wordmark colored"></i>
+          <i className="devicon-mongodb-plain-wordmark colored p-2"></i>
 
-          <i class="devicon-github-original colored"></i>
+          <i className="devicon-github-original colored p-2"></i>
         
           
         </div>
