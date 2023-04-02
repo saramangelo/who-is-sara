@@ -8,11 +8,11 @@ export default function AboutMe() {
       <div className="avatar">
         <Avatar />
       </div>
-      <section
+      <section className="icons"
         // className="blurb card-body img-fluid align-items-center shadow-5-strong rounded-4"
         // style={{ width: 500 }}
       >
-        <div className="devicons mb-3">
+        <div className="devicons mb-3 d-flex">
           <i class="devicon-html5-plain-wordmark colored"></i>
 
           <i class="devicon-css3-plain-wordmark colored"></i>

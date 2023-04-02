@@ -15,4 +15,12 @@
 
 .devicons {
   font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
